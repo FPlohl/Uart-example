@@ -1,3 +1,3 @@
 # Uart example
 
-This is tweaked uart example from NRF SDK.
+This a is tweaked uart example from NRF SDK.
