@@ -56,6 +56,7 @@
 #include "nrf.h"
 #include "bsp.h"
 #include "boards.h"
+#include <string.h>
 #if defined (UART_PRESENT)
 #include "nrf_uart.h"
 #endif
@@ -139,6 +140,8 @@ int i;
 int main(void)
 {
     uint32_t err_code;
+    uint8_t rx_buff[100];
+    uint8_t i;
 
     bsp_board_init(BSP_INIT_LEDS);
 
@@ -172,18 +175,24 @@ int main(void)
     while (true)
     {
         uint8_t cr;
-        while (app_uart_get(&cr) != NRF_SUCCESS);
-        while (app_uart_put(cr) != NRF_SUCCESS);
+        while (app_uart_get(&cr) != NRF_SUCCESS); // get character
+        while (app_uart_put(cr) != NRF_SUCCESS); // echo received character
     
-        if (cr == 'h' || cr == 'H')
-        {
+        rx_buff[i] = cr;
+        i++;
+
+        if(strstr(rx_buff, "high")){
             bsp_board_leds_on();
             printf("\r\nLED ON\r\n");
+            memset(rx_buff,0,100);
+            i = 0;
         }
-        else if (cr == 'l' || cr == 'L')
-        {
+
+        else if(strstr(rx_buff, "low")){
             bsp_board_leds_off();
             printf("\r\nLED OFF\r\n");
+            memset(rx_buff,0,100);
+            i = 0;
         }
     }
 #else

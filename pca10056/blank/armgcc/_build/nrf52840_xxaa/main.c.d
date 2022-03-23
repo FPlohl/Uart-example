@@ -68,6 +68,8 @@ _build/nrf52840_xxaa/main.c.o: ../../../main.c \
  ../../../../../../components/boards/boards.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
  ../../../../../../components/boards/pca10056.h \
+ /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/string.h \
+ /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/sys/string.h \
  ../../../../../../modules/nrfx/hal/nrf_uart.h \
  ../../../../../../modules/nrfx/hal/nrf_uarte.h
 
@@ -210,6 +212,10 @@ _build/nrf52840_xxaa/main.c.o: ../../../main.c \
 ../../../../../../modules/nrfx/hal/nrf_gpio.h:
 
 ../../../../../../components/boards/pca10056.h:
+
+/home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/string.h:
+
+/home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/sys/string.h:
 
 ../../../../../../modules/nrfx/hal/nrf_uart.h:
 
