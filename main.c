@@ -180,7 +180,7 @@ int main(void)
             bsp_board_leds_on();
             printf("\r\nLED ON\r\n");
         }
-        if (cr == 'l' || cr == 'L')
+        else if (cr == 'l' || cr == 'L')
         {
             bsp_board_leds_off();
             printf("\r\nLED OFF\r\n");

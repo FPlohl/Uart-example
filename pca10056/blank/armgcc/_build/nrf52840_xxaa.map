@@ -3417,117 +3417,117 @@ Linker script and memory map
                 0x000000000000145c       0x14 _build/nrf52840_xxaa/main.c.o
                 0x000000000000145c                uart_error_handle
  .text.startup.main
-                0x0000000000001470       0xa8 _build/nrf52840_xxaa/main.c.o
+                0x0000000000001470       0xa4 _build/nrf52840_xxaa/main.c.o
                 0x0000000000001470                main
  .text.SystemInit
-                0x0000000000001518      0x254 _build/nrf52840_xxaa/system_nrf52840.c.o
-                0x0000000000001518                SystemInit
- .text.exit     0x000000000000176c       0x28 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
-                0x000000000000176c                exit
+                0x0000000000001514      0x254 _build/nrf52840_xxaa/system_nrf52840.c.o
+                0x0000000000001514                SystemInit
+ .text.exit     0x0000000000001768       0x28 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+                0x0000000000001768                exit
  .text.__libc_init_array
-                0x0000000000001794       0x48 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
-                0x0000000000001794                __libc_init_array
- .text.memset   0x00000000000017dc       0x10 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
-                0x00000000000017dc                memset
- .text.printf   0x00000000000017ec       0x30 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
-                0x00000000000017ec                printf
-                0x00000000000017ec                iprintf
- .text.std      0x000000000000181c       0x48 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000000001790       0x48 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                0x0000000000001790                __libc_init_array
+ .text.memset   0x00000000000017d8       0x10 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x00000000000017d8                memset
+ .text.printf   0x00000000000017e8       0x30 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-printf.o)
+                0x00000000000017e8                printf
+                0x00000000000017e8                iprintf
+ .text.std      0x0000000000001818       0x48 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x0000000000001864        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000000001864                _cleanup_r
+                0x0000000000001860        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000000001860                _cleanup_r
  .text.__sfmoreglue
-                0x0000000000001870       0x2c /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000000001870                __sfmoreglue
+                0x000000000000186c       0x2c /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000000000186c                __sfmoreglue
  .text.__sfp_lock_acquire
-                0x000000000000189c        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000000000189c                __sfp_lock_acquire
+                0x0000000000001898        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000000001898                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x00000000000018a8        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000000018a8                __sfp_lock_release
+                0x00000000000018a4        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000000018a4                __sfp_lock_release
  .text.__sinit_lock_acquire
-                0x00000000000018b4        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000000018b4                __sinit_lock_acquire
+                0x00000000000018b0        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000000018b0                __sinit_lock_acquire
  .text.__sinit_lock_release
-                0x00000000000018c0        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000000018c0                __sinit_lock_release
- .text.__sinit  0x00000000000018cc       0x70 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000000018cc                __sinit
- .text.__sfp    0x000000000000193c       0x8c /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000000000193c                __sfp
+                0x00000000000018bc        0xc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000000018bc                __sinit_lock_release
+ .text.__sinit  0x00000000000018c8       0x70 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000000018c8                __sinit
+ .text.__sfp    0x0000000000001938       0x8c /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000000001938                __sfp
  .text._fwalk_reent
-                0x00000000000019c8       0x3e /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
-                0x00000000000019c8                _fwalk_reent
+                0x00000000000019c4       0x3e /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
+                0x00000000000019c4                _fwalk_reent
  .text.__retarget_lock_init_recursive
-                0x0000000000001a06        0x2 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
-                0x0000000000001a06                __retarget_lock_init_recursive
+                0x0000000000001a02        0x2 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
+                0x0000000000001a02                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x0000000000001a08        0x2 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
-                0x0000000000001a08                __retarget_lock_acquire_recursive
+                0x0000000000001a04        0x2 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
+                0x0000000000001a04                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000000001a0a        0x2 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
-                0x0000000000001a0a                __retarget_lock_release_recursive
+                0x0000000000001a06        0x2 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
+                0x0000000000001a06                __retarget_lock_release_recursive
  .text._malloc_r
-                0x0000000000001a0c       0xb4 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000000001a0c                _malloc_r
+                0x0000000000001a08       0xb4 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000001a08                _malloc_r
  .text.__sfputc_r
-                0x0000000000001ac0       0x2e /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000000001abc       0x2e /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x0000000000001aee       0x24 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000000001aee                __sfputs_r
- *fill*         0x0000000000001b12        0x2 
+                0x0000000000001aea       0x24 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000000001aea                __sfputs_r
+ *fill*         0x0000000000001b0e        0x2 
  .text._vfprintf_r
-                0x0000000000001b14      0x260 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000000001b14                _vfiprintf_r
-                0x0000000000001b14                _vfprintf_r
+                0x0000000000001b10      0x260 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000000001b10                _vfiprintf_r
+                0x0000000000001b10                _vfprintf_r
  .text._printf_common
-                0x0000000000001d74       0xda /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000000001d74                _printf_common
- *fill*         0x0000000000001e4e        0x2 
+                0x0000000000001d70       0xda /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000001d70                _printf_common
+ *fill*         0x0000000000001e4a        0x2 
  .text._printf_i
-                0x0000000000001e50      0x24c /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000000001e50                _printf_i
- .text._sbrk_r  0x000000000000209c       0x20 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
-                0x000000000000209c                _sbrk_r
- .text.__sread  0x00000000000020bc       0x22 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x00000000000020bc                __sread
+                0x0000000000001e4c      0x24c /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000001e4c                _printf_i
+ .text._sbrk_r  0x0000000000002098       0x20 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000000002098                _sbrk_r
+ .text.__sread  0x00000000000020b8       0x22 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x00000000000020b8                __sread
  .text.__swrite
-                0x00000000000020de       0x38 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x00000000000020de                __swrite
- .text.__sseek  0x0000000000002116       0x24 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x0000000000002116                __sseek
+                0x00000000000020da       0x38 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x00000000000020da                __swrite
+ .text.__sseek  0x0000000000002112       0x24 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x0000000000002112                __sseek
  .text.__sclose
-                0x000000000000213a        0x8 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x000000000000213a                __sclose
- *fill*         0x0000000000002142        0x2 
+                0x0000000000002136        0x8 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x0000000000002136                __sclose
+ *fill*         0x000000000000213e        0x2 
  .text.__swbuf_r
-                0x0000000000002144       0xa4 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
-                0x0000000000002144                __swbuf_r
+                0x0000000000002140       0xa4 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
+                0x0000000000002140                __swbuf_r
  .text._write_r
-                0x00000000000021e8       0x24 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-writer.o)
-                0x00000000000021e8                _write_r
+                0x00000000000021e4       0x24 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-writer.o)
+                0x00000000000021e4                _write_r
  .text.__swsetup_r
-                0x000000000000220c       0xdc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
-                0x000000000000220c                __swsetup_r
+                0x0000000000002208       0xdc /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
+                0x0000000000002208                __swsetup_r
  .text._close_r
-                0x00000000000022e8       0x20 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-closer.o)
-                0x00000000000022e8                _close_r
+                0x00000000000022e4       0x20 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-closer.o)
+                0x00000000000022e4                _close_r
  .text.__sflush_r
-                0x0000000000002308      0x10c /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
-                0x0000000000002308                __sflush_r
+                0x0000000000002304      0x10c /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+                0x0000000000002304                __sflush_r
  .text._fflush_r
-                0x0000000000002414       0x78 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
-                0x0000000000002414                _fflush_r
+                0x0000000000002410       0x78 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+                0x0000000000002410                _fflush_r
  .text._lseek_r
-                0x000000000000248c       0x24 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lseekr.o)
-                0x000000000000248c                _lseek_r
+                0x0000000000002488       0x24 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lseekr.o)
+                0x0000000000002488                _lseek_r
  .text.__swhatbuf_r
-                0x00000000000024b0       0x48 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
-                0x00000000000024b0                __swhatbuf_r
+                0x00000000000024ac       0x48 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+                0x00000000000024ac                __swhatbuf_r
  .text.__smakebuf_r
-                0x00000000000024f8       0x80 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
-                0x00000000000024f8                __smakebuf_r
- *fill*         0x0000000000002578        0x8 
+                0x00000000000024f4       0x80 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+                0x00000000000024f4                __smakebuf_r
+ *fill*         0x0000000000002574        0xc 
  .text          0x0000000000002580       0xa0 /home/florijan/gnuarmemb/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
                 0x0000000000002580                memchr
  .text.__malloc_lock
@@ -3960,7 +3960,7 @@ OUTPUT(_build/nrf52840_xxaa.out elf32-littlearm)
  .comment       0x0000000000000079       0x7a _build/nrf52840_xxaa/main.c.o
  .comment       0x0000000000000079       0x7a _build/nrf52840_xxaa/system_nrf52840.c.o
 
-.debug_line     0x0000000000000000     0xa425
+.debug_line     0x0000000000000000     0xa432
  .debug_line    0x0000000000000000       0x89 _build/nrf52840_xxaa/gcc_startup_nrf52840.S.o
  .debug_line    0x0000000000000089     0x1069 _build/nrf52840_xxaa/boards.c.o
  .debug_line    0x00000000000010f2      0x5d0 _build/nrf52840_xxaa/app_error.c.o
@@ -3973,8 +3973,8 @@ OUTPUT(_build/nrf52840_xxaa.out elf32-littlearm)
  .debug_line    0x0000000000004ab7      0x909 _build/nrf52840_xxaa/nrfx_prs.c.o
  .debug_line    0x00000000000053c0     0x1f3e _build/nrf52840_xxaa/nrfx_uart.c.o
  .debug_line    0x00000000000072fe     0x1ee0 _build/nrf52840_xxaa/nrfx_uarte.c.o
- .debug_line    0x00000000000091de      0x8ef _build/nrf52840_xxaa/main.c.o
- .debug_line    0x0000000000009acd      0x958 _build/nrf52840_xxaa/system_nrf52840.c.o
+ .debug_line    0x00000000000091de      0x8fc _build/nrf52840_xxaa/main.c.o
+ .debug_line    0x0000000000009ada      0x958 _build/nrf52840_xxaa/system_nrf52840.c.o
 
 .debug_info     0x0000000000000000    0x15854
  .debug_info    0x0000000000000000       0x26 _build/nrf52840_xxaa/gcc_startup_nrf52840.S.o
@@ -4082,7 +4082,7 @@ OUTPUT(_build/nrf52840_xxaa.out elf32-littlearm)
  .debug_loc     0x0000000000006573       0x69 _build/nrf52840_xxaa/main.c.o
  .debug_loc     0x00000000000065dc      0x278 _build/nrf52840_xxaa/system_nrf52840.c.o
 
-.debug_ranges   0x0000000000000000     0x1b28
+.debug_ranges   0x0000000000000000     0x1b30
  .debug_ranges  0x0000000000000000      0x8a8 _build/nrf52840_xxaa/boards.c.o
  .debug_ranges  0x00000000000008a8       0x18 _build/nrf52840_xxaa/app_error.c.o
  .debug_ranges  0x00000000000008c0       0x10 _build/nrf52840_xxaa/app_error_weak.c.o
@@ -4094,8 +4094,8 @@ OUTPUT(_build/nrf52840_xxaa.out elf32-littlearm)
  .debug_ranges  0x0000000000000bf8       0x38 _build/nrf52840_xxaa/nrfx_prs.c.o
  .debug_ranges  0x0000000000000c30      0x6b8 _build/nrf52840_xxaa/nrfx_uart.c.o
  .debug_ranges  0x00000000000012e8      0x680 _build/nrf52840_xxaa/nrfx_uarte.c.o
- .debug_ranges  0x0000000000001968       0x68 _build/nrf52840_xxaa/main.c.o
- .debug_ranges  0x00000000000019d0      0x158 _build/nrf52840_xxaa/system_nrf52840.c.o
+ .debug_ranges  0x0000000000001968       0x70 _build/nrf52840_xxaa/main.c.o
+ .debug_ranges  0x00000000000019d8      0x158 _build/nrf52840_xxaa/system_nrf52840.c.o
 
 .debug_macro    0x0000000000000000     0x5ba0
  .debug_macro   0x0000000000000000      0x349 _build/nrf52840_xxaa/boards.c.o
