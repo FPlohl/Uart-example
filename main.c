@@ -71,6 +71,9 @@
 #define UART_TX_BUF_SIZE 256                         /**< UART TX buffer size. */
 #define UART_RX_BUF_SIZE 256                         /**< UART RX buffer size. */
 
+uint8_t rx_buff[100];
+uint8_t i;
+
 void uart_error_handle(app_uart_evt_t * p_event)
 {
     if (p_event->evt_type == APP_UART_COMMUNICATION_ERROR)
@@ -81,8 +84,29 @@ void uart_error_handle(app_uart_evt_t * p_event)
     {
         APP_ERROR_HANDLER(p_event->data.error_code);
     }
-}
+    else if(p_event->evt_type == APP_UART_DATA_READY){ // character in buffer and available to read
+        uint8_t cr;
 
+        app_uart_get(&cr);  // read character from rx buffer
+        app_uart_put(cr);   // echo read character
+
+        rx_buff[i++] = cr;
+
+        if(strstr(rx_buff, "high")){
+            bsp_board_leds_on();
+            printf("\r\nLED ON\r\n");
+            memset(rx_buff,0,100);
+            i = 0;
+        }
+
+        else if(strstr(rx_buff, "low")){
+            bsp_board_leds_off();
+            printf("\r\nLED OFF\r\n");
+            memset(rx_buff,0,100);
+            i = 0;
+        }
+    }
+}
 
 #ifdef ENABLE_LOOPBACK_TEST
 /* Use flow control in loopback test. */
@@ -135,13 +159,10 @@ static void uart_loopback_test()
 /**
  * @brief Function for main application entry.
  */
-int i;
 
 int main(void)
 {
     uint32_t err_code;
-    uint8_t rx_buff[100];
-    uint8_t i;
 
     bsp_board_init(BSP_INIT_LEDS);
 
@@ -174,26 +195,7 @@ int main(void)
     
     while (true)
     {
-        uint8_t cr;
-        while (app_uart_get(&cr) != NRF_SUCCESS); // get character
-        while (app_uart_put(cr) != NRF_SUCCESS); // echo received character
-    
-        rx_buff[i] = cr;
-        i++;
-
-        if(strstr(rx_buff, "high")){
-            bsp_board_leds_on();
-            printf("\r\nLED ON\r\n");
-            memset(rx_buff,0,100);
-            i = 0;
-        }
-
-        else if(strstr(rx_buff, "low")){
-            bsp_board_leds_off();
-            printf("\r\nLED OFF\r\n");
-            memset(rx_buff,0,100);
-            i = 0;
-        }
+        // No operation
     }
 #else
 
