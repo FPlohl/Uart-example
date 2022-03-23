@@ -57,6 +57,8 @@ void uart_error_handle(app_uart_evt_t * p_event)
     }
 }
 
+#define UART_HWFC APP_UART_FLOW_CONTROL_DISABLED
+
 int main(void)
 {
     uint32_t err_code;
